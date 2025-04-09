@@ -1,6 +1,5 @@
-package com.app.weathernowlater.ui.theme
+package com.my_app.weathernowlater.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

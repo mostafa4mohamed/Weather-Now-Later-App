@@ -1,4 +1,4 @@
-package com.app.weathernowlater
+package com.my_app.weathernowlater
 
 import org.junit.Test
 

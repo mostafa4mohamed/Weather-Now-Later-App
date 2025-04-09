@@ -1,4 +1,4 @@
-package com.app.weathernowlater.ui.theme
+package com.my_app.weathernowlater.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.app.weathernowlater"
+    namespace = "com.my_app.weathernowlater"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.app.weathernowlater"
+        applicationId = "com.my_app.weathernowlater"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
