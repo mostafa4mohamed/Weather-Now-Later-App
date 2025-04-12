@@ -35,9 +35,9 @@ jobs:
 
       # Build APK
       - name: Build APK
-        run: ./gradlew assembleRelease --warning-mode all
+        run: ./gradlew assembleDebug --warning-mode all
 
-      - name: Upload APK as Artifact
+      - name: Upload Debug APK as Artifact
         uses: actions/upload-artifact@v3
         with:
           name: weather-challenge-apk
