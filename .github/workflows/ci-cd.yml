@@ -30,10 +30,19 @@ jobs:
       - name: Run Unit Tests
         run: ./gradlew test
 
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
       # Build APK
       - name: Build APK
         run: ./gradlew assembleRelease --warning-mode all
 
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
+      - name: Upload APK as Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: weather-challenge-apk
+          path: app/build/outputs/apk/debug/app-debug.apk
 
+      - name: Post build summary with download link
+    run: |
+      echo "APK Build complete! You can download it here: https://github.com/${{ github.repository }}/actions/artifacts/${{ steps.upload-artifact.outputs.artifact_id }}"
