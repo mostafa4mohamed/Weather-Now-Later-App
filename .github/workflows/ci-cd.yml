@@ -24,6 +24,9 @@ jobs:
       - name: Grant execute permission to gradlew
         run: chmod +x ./gradlew
 
+      - name: Publish to Maven Local
+        run: ./gradlew publishToMavenLocal
+
       - name: Run Unit Tests
         run: ./gradlew test
 

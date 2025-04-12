@@ -1,6 +1,6 @@
-# Weather-Challenge App
+# Weather Now & Later App
 
-The **Weather-Challenge** app provides users with real-time weather updates, including daily and weekly forecasts. The app leverages modern architecture to ensure a smooth user experience with offline capabilities, using OpenWeatherMap APIs. For API documentation, visit: [OpenWeatherMap API Docs](https://openweathermap.org/forecast5).
+The **Weather Now & Later App** app provides users with real-time weather updates, including daily and weekly forecasts. The app leverages modern architecture to ensure a smooth user experience with offline capabilities, using OpenWeatherMap APIs. For API documentation, visit: [OpenWeatherMap API Docs](https://openweathermap.org/forecast5).
 
 ## Table of Contents
 
