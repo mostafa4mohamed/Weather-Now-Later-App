@@ -21,6 +21,9 @@ jobs:
           java-version: '17'
           distribution: 'zulu'
 
+      - name: Grant execute permission to gradlew
+        run: chmod +x ./gradlew
+
       - name: Run Unit Tests
         run: ./gradlew test
 
